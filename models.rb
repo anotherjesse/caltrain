@@ -1,4 +1,5 @@
 require 'rubygems'
+require 'chronic'
 
 class Graph
   @@edges = {}
@@ -116,7 +117,7 @@ $times.each do |time|
 
     # BUILD THE GRAPH
 
-    min_col_time = Time.parse('0:00')
+    min_col_time = Chronic.parse('0:00')
     data.first.each_with_index do |train, column|
       next if column == 0
       # train.gsub!(/[^0-9]/,'')
@@ -127,7 +128,7 @@ $times.each do |time|
       data.each_with_index do |row, idx2|
         next if idx2 == 0
         next if row[column] == ''
-        cur_time = Time.parse(row[column])
+        cur_time = Chronic.parse(row[column])
         while cur_time < min_col_time or (start_time && start_time > cur_time)
           cur_time += 60*60*12
         end
