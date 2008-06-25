@@ -1,0 +1,11 @@
+tr.even {
+    background: #ddf;
+}
+
+tr td {
+    padding: 2px 4px;
+}
+
+tr th {
+    padding: 2px;
+}

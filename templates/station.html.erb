@@ -1,0 +1,14 @@
+<div title="<%= station['name'] %>">
+  <p><a href="http://maps.google.com/maps?q=<%= station['address'] %>+US+(CalTrain: <%= station['name'] %>)" target="_self"><%= station['address'].split(', CA').first %></a></p>
+  
+  <% $times.each do |time| %>
+    <p><%= time %></p>
+    <% $directions.each do |direction| %>
+      <ul>
+        <% Graph.about(station['name'], time, direction).each do |k,v| %>
+          <li><%= v.strftime("%I:%M%p").downcase.slice(0..-2) %> (<%= k %> <%= direction.to_s[0..0].upcase %>)</li>
+        <% end %>
+      </ul>
+    <% end %>
+  <% end %>
+</div>

@@ -1,0 +1,36 @@
+<div title="<%= dest['name'] %>">
+<%
+
+starts = times.select { |stops| stops['station_id'] == station['id'] }
+
+ends = times.select { |stops| stops['station_id'] == dest['id'] }
+
+start_trains = starts.collect { |stop| stop['train_id'] }
+end_trains = ends.collect { |stop| stop['train_id'] }
+
+good_trains = start_trains.select { |train_id| end_trains.include? train_id }
+
+idx = 0
+
+%>
+
+<table cellpadding="0" cellspacing="0">
+  <tr><th>Train</th><th><%= station['name'] %></th><th><%= dest['name'] %></th><th>Duration</th></tr>
+  <% good_trains.each do |train| 
+       start_time = (starts.select { |stop| stop['train_id'] == train }.first)['time']
+       end_time   = (ends.select { |stop| stop['train_id'] == train }.first)['time']
+       
+       next if start_time > end_time
+       next if trains[train]['is_weekend'] == 1
+       
+       idx += 1
+  %>
+    <tr<%= ' class="even"' if idx%2 ==0 %>>
+      <td><%= trains[train]['number'] %></td>
+      <td><%= start_time.strftime('%H:%M') %></td>
+      <td><%= end_time.strftime('%H:%M') %></td>
+      <td><%= ((end_time - start_time)/60).to_i %> Minutes</td>
+    </tr>
+  <% end %>
+</table>
+</div>

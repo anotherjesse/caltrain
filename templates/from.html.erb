@@ -1,0 +1,5 @@
+<ul title="<%= station %>" selected="true">
+  <% dests.each do |to| %>
+    <li><a href="<%= time %>_<%= station %>_<%= to['name'] %>.html"><%= to['name'] %></a></li>
+  <% end %>
+</ul>

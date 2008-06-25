@@ -1,0 +1,16 @@
+<table title="<%= dest['name'] %>">
+  <tr>
+    <th>Train</th>
+    <th><a href="<%= rev_url %>"><%= station %></a></th>
+    <th><%= dest['name'] %></th>
+    <th>Duration</th>
+  </tr>
+  <% explore.stops(dest['name']).sort{|x,y| x[:start] <=> y[:start] }.each do |stop| %>
+    <tr>
+      <td><%= stop[:train] %></td>
+      <td><%= stop[:start].strftime("%I:%M%p").downcase.slice(0..-2) %></td>
+      <td><%= stop[:end].strftime("%I:%M%p").downcase.slice(0..-2) %></td>
+      <td><%= ((stop[:end] - stop[:start]) / 60).to_i %> min</td>
+    </tr>
+  <% end %>
+</table>

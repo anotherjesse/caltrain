@@ -1,0 +1,5 @@
+<ul title="Stations" selected="true">
+  <% $stations.each do |station| %>
+    <li><a href="<%= station['name'] %>.html"><%= station['name'] %></a></li>
+  <% end %>
+</ul>

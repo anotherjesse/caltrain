@@ -1,0 +1,34 @@
+San Francisco, 700 4th St, San Francisco, 94107-1617, -122.394981, 37.777129, BSLVTW, 0
+22nd Street, 1149 22nd St, San Francisco, 94107-3444, -122.392581, 37.757729, VT, 0
+Paul Avenue, 1 Gould St, San Francisco, 94124, -122.397646, 37.722713, , 0
+Bayshore, 400 Tunnel Avenue, San Francisco, 94134-2938, -122.401081, 37.709618, BVPT, 0
+So. San Francisco, 590 Dubuque Avenue, South San Francisco, 94080-1824, -122.405783, 37.656504, BVPT, 0
+San Bruno, 481 Huntington Ave, San Bruno, 94066-4404, -122.413683, 37.634334, BVPTW, 0
+Millbrae, 100 California Dr, Millbrae, 94030-3100, -122.385625, 37.598839, BVPT, 1
+Broadway, 1190 California Dr, Burlingame, 94010-3506, -122.363963, 37.588170, BVPT, 1
+Burlingame, 290 California Dr, Burlingame, 94010-4117, -122.344834, 37.580101, BVPT, 1
+San Mateo, 2 North B St, San Mateo, 94401-3917, -122.323709, 37.568061, BVPTW, 1
+Hayward Park, 401 Concar Dr, San Mateo, 94402-2650, -122.309160, 37.552531, BVPW, 1
+Bay Meadows, 1 31st Ave, San Mateo, 94403-3403, -122.299011, 37.539796, V, 1
+Hillsdale, 3333 S El Camino Real, San Mateo, 94403-3431, -122.297680, 37.538350, BVPTW, 1
+Belmont, 995 El Camino Real, Belmont, 94002-2305, -122.276578, 37.520936, BVPTW, 0
+San Carlos, 599 El Camino Real, San Carlos, 94070-2411, -122.262477, 37.509536, BVPTW, 0
+Redwood City, 1 James Ave, Redwood City, 94063, -122.231076, 37.484537, BVPTW, 0
+Atherton, 1 Dinkelspiel Station Ln, Atherton, 94027-3859, -122.195687, 37.462901, BVPT, 0
+Menlo Park, 1120 Merrill St, Menlo Park, 94025-4304, -122.182661, 37.454622, BVPTW, 0
+Palo Alto, 95 University Ave, Palo Alto, 94301-2324, -122.164590, 37.442923, BSVPTW, 0
+Stanford, 100 Embarcadero Rd, Palo Alto, 94301-3523, -122.155975, 37.438239, , 0
+California Ave, 101 S California Ave, Palo Alto, 94306-1926, -122.142375, 37.429239, BSVPT, 0
+San Antonio, 190 Showers Dr, Mountain View, 94040-1424, -122.105874, 37.40334, BVPTW, 0
+Mountain View, 600 W Evelyn Ave, Mountain View, 94041-1315, -122.076583, 37.393808, BLVPTW, 0
+Sunnyvale, 121 W Evelyn Ave, Sunnyvale, 94086-6157, -122.030295, 37.377523, BVPTW, 0
+Lawrence, 137 San Zeno Way, Sunnyvale, 94086-5307, -121.997444, 37.371504, BVPT, 0
+Santa Clara, 1001 Railroad Ave, Santa Clara, 95050-4319, -121.938068, 37.353441, BSVPTW, 0
+College Park, 780 Stockton Ave, San Jose, 95126-1837, -121.914985, 37.342012, V, 0
+San Jose, 65 Cahill St, San Jose, 95110-2501, -121.902197, 37.331035, BVPTW, 0
+Tamien, 1355 Lick Avenue, San Jose, 95110-3210, -121.882314, 37.311780, BLVPTW, 0
+Capitol, 3400 Monterey Hwy, San Jose, 95111-3318, -121.841263, 37.284042, BVPTW, 0
+Blossom Hill, 5560 Monterey Hwy, San Jose, 95138-1529, -121.795099, 37.251309, BVPTW, 0
+Morgan Hill, 17300 Depot St, Morgan Hill, 95037-3617, -121.650756, 37.129145, VPTW, 0
+San Martin, 13400 Monterey Hwy, San Martin, 95046-9210, -121.612455, 37.088146, VPTW, 0
+Gilroy, 7150 Monterey St, Gilroy, 95020-6616, -121.567378, 37.003426, BVPTW, 0

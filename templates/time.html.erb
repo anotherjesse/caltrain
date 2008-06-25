@@ -1,0 +1,5 @@
+<ul title="<%= time.to_s.capitalize %>" selected="true">
+  <% stations.each do |station| %>
+    <li><a href="<%= time %>_<%= station['name'] %>.html"><%= station['name'] %></a></li>
+  <% end %>
+</ul>
